@@ -1,0 +1,13 @@
+{
+    "name": "css rules",
+    "content_scripts": [
+        {
+         "matches": [
+            "*://*.twitter.com/*"
+         ],"css": ["new.css"],"run_at" : "document_start"
+        }
+    ],
+    "version":"1.0",
+    "manifest_version":2
+}
+
